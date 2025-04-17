@@ -1,64 +1,45 @@
-# ⚡️ Flux — MVP Energy. Wallet Therapy.
+# 🌐 Flux Website — Because MVPs Deserve a Hype Page Too
 
-Welcome to **Flux**, the app that pretends to fix your finances — and *kinda* does.  
-It’s an MVP (*Minimal Viable Product*, not *Most Valuable Player*... yet), built with love, late nights, and the hope that someone out there will fund this.
-
----
-
-## 💡 What Even Is Flux?
-
-Flux is your friendly, budget-tracking sidekick that helps you figure out where your money is going (spoiler: it’s food, subscriptions, and emotional spending).
-
-Right now, it can:
-
-- 💰 Track your **income**
-- 🧾 Record your **expenses**
-- 📊 Show you how much you’ve “saved” (even if it’s ₹42. Nice.)
-- 📚 Offer **investment options** like SIPs, FDs, mutual funds, and more (explained like you’re 5)
-- 🧠 Includes a **barebones SmartAI** (don't get excited — it answers simple finance questions. That’s it. It’s learning, okay?)
-
-Coming *hopefully soon-ish*:
-
-- 💳 **UPI payments** directly from Flux — no more typing your chai expenses manually  
-- 💸 Automatic expense detection (because manual effort is so 2010)
-- 📲 Notifications that gently yell at you when you overspend
+Welcome to the official website of **Flux** — the app that’s trying to fix your finances while still trying to find investors. This site was made to look cool, sound clever, and make you believe we're just *one pitch away* from being the next big thing.
 
 ---
 
-## 🌀 4-Step Master Plan
+## 🚀 What's This Website About?
 
-Because even MVPs need structure.
+Think of it as our **digital elevator pitch**, but with scroll animations, sarcastic text bubbles, and a tiny bit of self-awareness. It tells you:
 
-1. **Add Salary** – Fake it till you make it.
-2. **Add Expenses** – Be honest, we know you bought that 8th tote bag.
-3. **Get Savings** – Reality check, served cold.
-4. **View Investment Options** – Because stuffing cash in a drawer isn’t a plan.
-
----
-
-## 🤔 But Is That It?
-
-Well yeah, **Sherlock**, what did you expect from an MVP?  
-A full-blown finance advisor with neural networks and crypto prediction?  
-Flux is still growing — and when someone decides to throw money at this idea, you’ll see it evolve into something way cooler.
-
-Until then… it’s minimalist. Let’s call it **financial minimalism**.
+- 📱 What Flux is (spoiler: it tracks savings, expenses, goals, etc.)
+- 🧠 That we have a “SmartAI” (quotes because it’s currently a glorified chatbot for investment FAQs)
+- 📦 The *4-easy-step* user flow (add salary, add expenses, cry, invest)
+- 🧊 Our cold but brutally honest MVP disclaimer section
+- 💬 Even a fake text conversation between you and someone questioning the app’s worth (rude, but funny)
 
 ---
 
-## 🔧 Built With
+## 🖼️ Sections You'll See
 
-- React + Vite
-- Tailwind CSS + shadcn/ui
-- Framer Motion (for fancy UI shenanigans)
-- Pain and ambition
+1. **Hero Section** – Clean. Punchy. Pretending we’re funded.
+2. **Bento Grid of Features** – Because grids = legit.
+3. **SmartAI Intro** – Reads like a product tease. Works like a baby calculator.
+4. **4-Step User Flow** – For people who love visuals and short attention spans.
+5. **Sassy MVP Disclaimer** – Yes, we’re self-aware.
+6. **Fake Text Chat** – Because sarcasm sells.
+7. **Footer** – Minimal, neat, slightly self-deprecating.
 
 ---
 
-## 📦 Install & Run
+## ⚙️ Tech Stack
+
+- **React + Vite** – Because speed matters when you don’t have features.
+- **Tailwind CSS + shadcn/ui** – Because UI should slap even if the backend doesn’t.
+- **Framer Motion** – For smooth animations and cooler-than-it-should-be buttons.
+
+---
+
+## 🧑‍💻 How to Run This Masterpiece
 
 ```bash
-git clone https://github.com/yourusername/flux.git
-cd flux
+git clone https://github.com/yourusername/flux-website.git
+cd flux-website
 npm install
 npm run dev
