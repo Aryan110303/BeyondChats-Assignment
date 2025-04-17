@@ -39,7 +39,7 @@ Think of it as our **digital elevator pitch**, but with scroll animations, sarca
 ## 🧑‍💻 How to Run This Masterpiece
 
 ```bash
-git clone https://github.com/yourusername/flux-website.git
+git clone https://github.com/Aryan110303/flux-website.git
 cd flux-website
 npm install
 npm run dev
