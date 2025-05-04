@@ -46,7 +46,7 @@ function Treat() {
           
           {/* Heading container */}
           <div className="absolute inset-x-0 top-0 flex flex-col items-center mt-8 mb-4">
-            <h2 className="text-4xl font-gothic text-white">
+            <h2 className="text-4xl font-gothic text-white mb-2">
               <strong className='text-accent'>Conversations</strong> I Didn't Know I'd Have to Have
             </h2>
           </div>

@@ -9,6 +9,7 @@ import Features from "./components/Features";
 import Bento from "./components/Bento";
 import Mvp from "./components/Mvp";
 import Treat from "./components/Treat";
+import Try from "./components/Try";
 import Preloader from './components/Preloader'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
                 <Mvp />
                 <Steps />
                 <Treat />
+                <Try />
                 <Footer />
               </>
             } />
