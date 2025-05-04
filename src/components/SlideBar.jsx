@@ -38,7 +38,6 @@ const SlideTabs = () => {
       <Tab setPosition={setPosition} onClick={() => scrollToSection('AI')}>AI-ish</Tab>
       <Tab setPosition={setPosition} onClick={() => scrollToSection('steps')}>Steps</Tab>
       <Tab setPosition={setPosition} onClick={() => scrollToSection('try')}>Fine, I'll Try</Tab>
-
       <Cursor position={position} />
     </ul>
   );

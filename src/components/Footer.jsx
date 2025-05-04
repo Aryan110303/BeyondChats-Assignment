@@ -22,17 +22,17 @@ function Footer() {
               <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
                 Home
               </a>
-              <a href="#work" onClick={(e) => handleScroll(e, 'work')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Work
+              <a href="#bento" onClick={(e) => handleScroll(e, 'bento')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
+                Perks
               </a>
-              <a href="#services" onClick={(e) => handleScroll(e, 'services')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Services
+              <a href="#AI" onClick={(e) => handleScroll(e, 'AI')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
+                AI-ish
               </a>
-              <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                About
+              <a href="#steps" onClick={(e) => handleScroll(e, 'steps')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
+                Steps
               </a>
-              <a href="#faq" onClick={(e) => handleScroll(e, 'faq')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                FAQ
+                <a href="#try" onClick={(e) => handleScroll(e, 'try')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
+                Try Me
               </a>
               
             </nav>
@@ -46,7 +46,7 @@ function Footer() {
               <span>{'}'}</span>
             </div>
             <nav className="flex flex-col gap-0">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" 
                  className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
                 Instagram
               </a>
