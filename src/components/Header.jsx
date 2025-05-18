@@ -43,11 +43,11 @@ function Header() {
                         <button className='flex items-center text-sm font-medium transition-colors hover:text-foreground/80'>Intelligence Solution<span className='ml-1'>▼</span></button>
                         <div className='absolute invisible mt-2 w-64 bg-background border border-white rounded-md shadow-lg opacity-0 transition-all duration-200 ease-in-out group-hover:visible group-hover:opacity-100 sm:text-sm'>
                             <div className='py-1'>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl tracking-[-.42px] hover:text-foreground/80'>Digital Twin</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Smart Power Mapping</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Predictve Failure and Alerting</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Smart Control System</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Automated Discovery</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Digital Twin</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Smart Power Mapping</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Predictve Failure and Alerting</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Smart Control System</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Automated Discovery</a>
                             </div>
                         </div>
                     </div>
@@ -55,25 +55,25 @@ function Header() {
                         <button className='flex items-center text-sm font-medium transition-colors hover:text-foreground/80'>Data Center Compliance<span className='ml-1'>▼</span></button>
                         <div className='absolute invisible mt-2 w-64 bg-background border border-white rounded-md shadow-lg opacity-0 transition-all duration-200 ease-in-out group-hover:visible group-hover:opacity-100 sm:text-sm'>
                             <div className='py-1'>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl tracking-[-.42px] hover:text-foreground/80'>DCOI Compliance</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>(EU) 2023/1791</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>EN 50600</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>LEED Certification</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>ISO/IEC 30134-2</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>EPA ENERGY STAR</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Europian Commission Joint Research Centre(JRC)</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm tracking-[-.42px] hover:text-foreground/80'>DCOI Compliance</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>(EU) 2023/1791</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>EN 50600</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>LEED Certification</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>ISO/IEC 30134-2</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>EPA ENERGY STAR</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Europian Commission Joint Research Centre(JRC)</a>
                             </div>
                         </div>
                     </div>
                     <div className='relative group'>
                         <button className='flex items-center text-sm font-medium transition-colors hover:text-foreground/80'>Sustainability Blog<span className='ml-1'>▼</span></button>
-                        <div className='absolute invisible mt-2 w-64 bg-background border border-white rounded-md shadow-lg opacity-0 transition-all duration-200 ease-in-out group-hover:visible group-hover:opacity-100 sm:text-sm'>
+                        <div className='absolute right-0 invisible mt-2 w-64 bg-background border border-white rounded-md shadow-lg opacity-0 transition-all duration-200 ease-in-out group-hover:visible group-hover:opacity-100 sm:text-sm'>
                             <div className='py-1'>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl tracking-[-.42px] hover:text-foreground/80'>Energy Efficiency</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Stranded Energy Map</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Environmental Product Decleration</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Renewables Integration</a>
-                                <a href="" className='block px-4 py-1.5 font-medium text-xl hover:text-foreground/80'>Power Resource Management</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm tracking-[-.42px] hover:text-foreground/80'>Energy Efficiency</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Stranded Energy Map</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Environmental Product Decleration</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Renewables Integration</a>
+                                <a href="" className='block px-4 py-1.5 font-medium text-sm hover:text-foreground/80'>Power Resource Management</a>
                             </div>
                         </div>
                     </div>
