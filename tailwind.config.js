@@ -7,8 +7,7 @@ export default {
     theme: {
       extend: {
         fontFamily: {
-          sans: ['HelveticaNeue', 'sans-serif'],
-          gothic: ['Gothic', 'sans-serif'],
+          siri: ['Sirichana', 'sans-serif'],
         },
         colors: {
           primary: '#fff',

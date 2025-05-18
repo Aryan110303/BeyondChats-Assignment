@@ -1,44 +1,30 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Hero from './components/Hero'
-import Difference from './components/Difference'
-import Steps from './components/Steps'
-import Footer from './components/Footer'
 import Header from "./components/Header";
-import Features from "./components/Features";
-import Bento from "./components/Bento";
-import Mvp from "./components/Mvp";
-import Treat from "./components/Treat";
-import Try from "./components/Try";
-import Preloader from './components/Preloader'
+import Hero from './components/Hero';
+import Marquee from './components/Marquee';
+import AiGrid from './components/AiGrid';
+import Banner from './components/Banner';
+import Build from './components/Build';
+import Book from './components/Book';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
+
+
 
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <Router>
-      <div className="min-h-screen bg-black">
-        <Preloader onComplete={() => setIsLoaded(true)} />
-        {isLoaded && (
-          <Routes>
-            <Route path="/" element={
-              <>
-                <Header />
-                <Hero />
-                <Features />
-                <Bento />
-                <Difference />
-                <Mvp />
-                <Steps />
-                <Treat />
-                <Try />
-                <Footer />
-              </>
-            } />
-          </Routes>
-        )}
-      </div>
-    </Router>
+    <>
+      <Header/>
+      <Hero/>
+      <Marquee/>
+      <AiGrid/>
+      <Banner/>
+      <Build/>
+      <Book/>
+      <Faq/>
+      <Footer/>
+    </>
   )
 }
 

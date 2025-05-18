@@ -15,32 +15,6 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* Marquee animations */
-@keyframes marquee {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
-  }
-}
-
-@keyframes marquee-vertical {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(calc(-100% - var(--gap)));
-  }
-}
-
-.animate-marquee {
-  animation: marquee var(--duration) linear infinite;
-}
-
-.animate-marquee-vertical {
-  animation: marquee-vertical var(--duration) linear infinite;
-}
 
 @import "tw-animate-css";
 
@@ -84,51 +58,7 @@ html::-webkit-scrollbar {
   --color-sidebar-ring: var(--sidebar-ring);
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
-  @keyframes marquee {
-  from {
-    transform: translateX(0);
-    }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
-    }
-  }
-  @keyframes marquee-vertical {
-  from {
-    transform: translateY(0);
-    }
-  to {
-    transform: translateY(calc(-100% - var(--gap)));
-    }
-  }
-  --animate-meteor: meteor 5s linear infinite
-;
-  @keyframes meteor {
-  0% {
-    transform: rotate(var(--angle)) translateX(0);
-    opacity: 1;}
-  70% {
-    opacity: 1;}
-  100% {
-    transform: rotate(var(--angle)) translateX(-500px);
-    opacity: 0;}}
-  --animate-aurora: aurora 8s ease-in-out infinite alternate;
-  @keyframes aurora {
-  0% {
-    backgroundPosition: 0% 50%;
-    transform: rotate(-5deg) scale(0.9);}
-  25% {
-    backgroundPosition: 50% 100%;
-    transform: rotate(5deg) scale(1.1);}
-  50% {
-    backgroundPosition: 100% 50%;
-    transform: rotate(-3deg) scale(0.95);}
-  75% {
-    backgroundPosition: 50% 0%;
-    transform: rotate(3deg) scale(1.05);}
-  100% {
-    backgroundPosition: 0% 50%;
-    transform: rotate(-5deg) scale(0.9);}}}
-
+}
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -208,9 +138,32 @@ html::-webkit-scrollbar {
 }
 
 @font-face {
-  font-family: 'Gothic';
-  src: url('../src/assets/Fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+  font-family: 'Sirichana';
+  src: url('../src/assets/Fonts/Sirichana W31 Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+.scroller{
+  display: flex;
+  animation: marquee 18s linear infinite;
+  gap: 1rem;
+  width: calc(200%);
+}
+
+@keyframes marquee{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+.revert{
+  filter: invert(100%) sepia(18%) saturate(2%) hue-rotate(152deg) brightness(107%) contrast(101%);
+}
+.bgimage{
+  filter: blur(3px);
 }

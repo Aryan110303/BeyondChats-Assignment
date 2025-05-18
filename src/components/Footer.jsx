@@ -1,117 +1,15 @@
 import React from 'react'
+import logo from '../assets/logo.jpg'
 
 function Footer() {
-  const handleScroll = (e, sectionId) => {
-    e.preventDefault()
-    smoothScroll(sectionId)
-  }
-
   return (
-    <footer className="min-h-screen bg-black text-white flex flex-col justify-between pt-20">
-      {/* Top Section with Links */}
-      <div className="px-4">
-        <div className="max-w-[90%] w-full mx-auto flex justify-between items-start">
-          {/* Navigation Section */}
-          <div className="flex gap-8">
-            <div className="text-sm text-white/60 whitespace-nowrap flex items-start gap-2 pt-1">
-              <span>{'{'}</span>
-              <span className='font-gothic'>Navigation</span>
-              <span>{'}'}</span>
+    <footer className=' border-t border-border mt-22'>
+        <div className='container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0 mx-auto px-6'>
+            <div className='flex flex-col items-center gap-4 md:flex-row md:px-0 px-8 md:gap-2'>
+                <img src={logo} alt="" width={34} height={36}/>
+                <p className='text-sm md:text-left leading-loose'>Copyright © 2025</p>
             </div>
-            <nav className="flex flex-col gap-0">
-              <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Home
-              </a>
-              <a href="#bento" onClick={(e) => handleScroll(e, 'bento')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Perks
-              </a>
-              <a href="#AI" onClick={(e) => handleScroll(e, 'AI')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                AI-ish
-              </a>
-              <a href="#steps" onClick={(e) => handleScroll(e, 'steps')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Steps
-              </a>
-                <a href="#try" onClick={(e) => handleScroll(e, 'try')} className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Try Me
-              </a>
-              
-            </nav>
-          </div>
-
-          {/* Social Media Section */}
-          <div className="flex gap-8">
-            <div className="text-sm text-white/60 whitespace-nowrap flex items-start gap-2 pt-1">
-              <span>{'{'}</span>
-              <span className='font-gothic'>Social Media</span>
-              <span>{'}'}</span>
-            </div>
-            <nav className="flex flex-col gap-0">
-              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" 
-                 className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Instagram
-              </a>
-              <a href="https://github.com/Aryan110303" target="_blank" rel="noopener noreferrer" 
-                 className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Github
-              </a>
-              <a href="https://iaryansharma.me" target="_blank" rel="noopener noreferrer" 
-                 className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                Website
-              </a>
-              <a href="https://linkedin.com/in/aryan-sharma03" target="_blank" rel="noopener noreferrer" 
-                 className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                LinkedIn
-              </a>
-            </nav>
-          </div>
-
-          {/* Contact Section */}
-          <div className="flex gap-8">
-            <div className="text-sm text-white/60 whitespace-nowrap flex items-start gap-2 pt-1">
-              <span>{'{'}</span>
-              <span className='font-gothic'>Contact</span>
-              <span>{'}'}</span>
-            </div>
-            <div className="flex flex-col gap-0">
-              <a href="https://iaryansharma.me" target="_blank" rel="noopener noreferrer" className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                iaryansharma.me
-              </a>
-              <a href="mailto:aryansharma.developer@gmail.com" target="_blank" rel="noopener noreferrer" className="block hover:text-[#7b80ff] transition-colors text-xl font-gothic">
-                aryansharma.developer@gmail.com
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
-
-      {/* Large Text Logo */}
-      <div className="w-full overflow-hidden">
-        <div className="flex justify-between w-full">
-          {['F', 'L', 'U', 'X'].map((letter, index) => (
-            <div 
-              key={index} 
-              className="text-[15vw] font-bold leading-none font-gothic"
-              style={{
-                background: 'linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text'
-              }}
-            >
-              {letter}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Bottom Bar */}
-      <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto flex justify-between items-center py-6 px-4 text-sm text-white/60">
-          <div className='font-gothic'>©2025 All Rights Reserved.</div>
-          <div className='font-gothic'>Built with coffee,code and a bit of financial trauma ❤️</div>
-          <div className='font-gothic'>FLUX</div>
-        </div>
-      </div>
     </footer>
   )
 }
