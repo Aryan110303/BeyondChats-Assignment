@@ -11,18 +11,6 @@ export default {
         },
         colors: {
           primary: '#fff',
-          accent: '#7b80ff',
-          main: '#1f2630',
-          black: '#000000',
-          white: '#ffffff',
-          danger: '#F75555',
-          background: '#000000',
-          foreground: '#ffffff',
-          card: '#1f2630',
-          'card-foreground': '#ffffff',
-          border: 'rgba(255, 255, 255, 0.1)',
-          input: 'rgba(255, 255, 255, 0.15)',
-          ring: '#7b80ff',
         },
         borderRadius: {
           'xs': '0.125rem',

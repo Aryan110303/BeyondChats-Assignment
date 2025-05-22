@@ -128,42 +128,11 @@ html::-webkit-scrollbar {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-
-@font-face {
-  font-family: 'Sirichana';
-  src: url('../src/assets/Fonts/Sirichana W31 Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-.scroller{
-  display: flex;
-  animation: marquee 18s linear infinite;
-  gap: 1rem;
-  width: calc(200%);
-}
-
-@keyframes marquee{
-  0%{
-    transform: translateX(0%);
-  }
-  100%{
-    transform: translateX(-50%);
-  }
-}
-
-.revert{
-  filter: invert(100%) sepia(18%) saturate(2%) hue-rotate(152deg) brightness(107%) contrast(101%);
-}
-.bgimage{
-  filter: blur(3px);
+.custom-handle-e{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 10px;
+  cursor: ew-resize;
 }
