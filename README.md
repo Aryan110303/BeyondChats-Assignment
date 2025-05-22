@@ -15,7 +15,7 @@ Despite the time constraints, I have implemented as many core functionalities as
 ## Deployed Project
 
 You can access the deployed version of the project here:  
-**[Insert Deployed Link Here]**
+https://beyond-chats-assignment-lime.vercel.app/
 
 ## Technologies Used
 
